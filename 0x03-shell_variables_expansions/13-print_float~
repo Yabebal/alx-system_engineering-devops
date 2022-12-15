@@ -1,0 +1,3 @@
+#!/bin/bash
+export combn=({a..z}{a..z})| printf "%s\n" ${combn[@]//oo}
+printf "%.2f\n" $NUM
